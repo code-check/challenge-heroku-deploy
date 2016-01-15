@@ -1,0 +1,29 @@
+{
+  "name": "challenge-heroku-deploy",
+  "version": "1.0.0",
+  "description": "Deploy your application to Heroku!",
+  "scripts": {
+    "test": "mocha specifications/heroku.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/givery-technology/challenge-heroku-deploy.git"
+  },
+  "keywords": [],
+  "engine": {
+    "node": "4.x"
+  },
+  "author": "Givery, Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/givery-technology/challenge-heroku-deploy/issues"
+  },
+  "homepage": "https://github.com/givery-technology/challenge-heroku-deploy#readme",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "request": "^2.67.0"
+  }
+}
