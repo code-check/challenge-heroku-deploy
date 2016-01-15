@@ -10,7 +10,8 @@ function endpoint (appname, path) {
 function accessIndex (name, callback) {
   var options = {
     uri: endpoint(name),
-    method: 'HEAD',
+    method: 'GET',
+    json: true,
   };
   request(options, callback);
 }
