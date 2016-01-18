@@ -8,7 +8,7 @@ var
 
 var API = spec.define({
   "endpoint": "/api/ping",
-  "method": "spec.Method.GET",
+  "method": spec.Method.GET,
   "request": {
     "contentType": spec.ContentType.URLENCODED
   },

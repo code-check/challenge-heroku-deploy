@@ -4,7 +4,7 @@ var
   request = require('request');
 
 function origin (appname) {
-  return 'https://' + appname + '.herokuapp.com';
+  return appname + '.herokuapp.com';
 };
 
 module.exports = {

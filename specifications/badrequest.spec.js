@@ -8,7 +8,7 @@ var
 
 var API = spec.define({
   "endpoint": "/api/badrequest",
-  "method": "spec.Method.POST",
+  "method": spec.Method.POST,
   "request": {
     "contentType": spec.ContentType.URLENCODED
   },
