@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/givery-technology/challenge-heroku-deploy#readme",
   "devDependencies": {
+    "api-first-spec": "^0.2.9",
     "chai": "^3.4.1",
     "mocha": "^2.3.4"
   },
