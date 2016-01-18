@@ -1,0 +1,14 @@
+{
+  "editable": [
+    "account.json",
+    "Procfile"
+  ],
+  "exclude": [
+    "challenge.json"
+  ],
+  "readme": {
+    "ja": "README_ja.md",
+    "en": "README.md"
+  },
+  "test": "mocha specifications"
+}
