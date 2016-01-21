@@ -24,6 +24,6 @@ module ChallengeHerokuDeploy
     config.active_record.raise_in_transactional_callbacks = true
 
     # Disable pipeline
-    config.assets.enabled = false
+    config.assets.precompile = []
   end
 end
