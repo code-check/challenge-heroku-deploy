@@ -36,3 +36,9 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# GitIgnore list for Laravel
+/vendor
+Homestead.yaml
+Homestead.json
+.env
