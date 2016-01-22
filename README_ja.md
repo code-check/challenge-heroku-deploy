@@ -31,6 +31,11 @@ Heroku の Deploy についてのドキュメントは[こちら](https://devcen
 }
 ```
 
+**Note:**  
+Gradlew を使ったデプロイには次の buildpack が必要になります。
+https://github.com/marc0der/heroku-buildpack-gradlew
+
+
 ## ステップ 4: テストを実行しよう！
 デプロイが完了したらテストを実行して、エラーなく終了できることを確認しましょう！
 [specifications](./specifications) フォルダの中にある `.spec.js` で終わるファイルからテストの内容が確認できます。
