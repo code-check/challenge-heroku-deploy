@@ -1,5 +1,4 @@
-
-# Created by https://www.gitignore.io/api/node
+# Created by https://www.gitignore.io/api/node,django
 
 ### Node ###
 # Logs
@@ -36,3 +35,15 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+media
+
+
