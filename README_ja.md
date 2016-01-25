@@ -1,7 +1,7 @@
 # Heroku への Deploy
 **このチャレンジは GitHub への Fork機能の使用を推奨します。**
 サンプルの API が実装されたコードが用意されているので、それを [Heroku](https://heroku.com) に Deploy（サーバー側にコードを送って、アプリケーションにアクセス可能な状態にする事）しましょう。
-Heroku の公式なドキュメントは英語のみですが、有志の方々が[和訳をなさっている](https://github.com/herokaijp/devcenter/wiki/Add-on-app-info)ようです。まだまだ和訳できていないページも多いですが一度見てみるといいかもしれません。
+Heroku の[公式なドキュメント](https://devcenter.heroku.com/start)は英語のみですが、有志の方々が[和訳をなさっている](https://github.com/herokaijp/devcenter/wiki/Add-on-app-info)ようです。まだまだ和訳できていないページも多いですが一度見てみるといいかもしれません。
 
 ## ステップ 1 - 1: [Heroku](https://heroku.com) のアカウントを作ろう！
 Heroku のアカウントを既に持っている場合はこのステップは飛ばしてください。
@@ -17,6 +17,11 @@ Heroku は「どんなコマンドを実行するとサーバーが起動する�
 ## ステップ 3: Deploy しよう！
 Heroku の Deploy についてのドキュメントは[こちら](https://devcenter.heroku.com/categories/reference#deployment)
 [GitHubと連携](https://devcenter.heroku.com/articles/github-integration)させると、GitHub のコードを更新する度に自動的に deploy が行われるようになるので、そちらをおすすめします。
+
+##### Notes: Buildpacks
+
+いくつかのフレームワークでは [buildpacks](https://devcenter.heroku.com/articles/buildpacks)を明示的に指定する必要があるのでドキュメントを読んで設定しましょう！
+
 
 ## ステップ 4: account.json を編集しよう！
 アプリケーションを作成したら[account.json](./account.json)の `heroku_appname` の値に先ほど作った Heroku のアプリケーション名を入力してください。（`App Name` の項目に入力した内容）  
