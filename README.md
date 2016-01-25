@@ -1,4 +1,4 @@
-# Heroku への Deploy
+# Deploy to Heroku
 _We recommend to take this exam with GitHub Fork feature_
 Deploy the code to [Heroku](https://heroku.com) and see how does the heroku works; we will provide you a sample implementation for Web API Server.
 See the [document](https://devcenter.heroku.com/start) to learn how to deploy.
