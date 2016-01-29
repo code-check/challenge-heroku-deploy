@@ -1,0 +1,13 @@
+{
+  "name": "Heroku Deploy",
+  "description": "Deploy your service to Heroku",
+  "keywords": [
+    "codecheck",
+    "challenge"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs"
+    }
+  ],
+}
