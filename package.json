@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Deploy your application to Heroku!",
   "scripts": {
-    "test": "mocha specifications/heroku.spec.js"
+    "test": "mocha specifications"
   },
   "repository": {
     "type": "git",
