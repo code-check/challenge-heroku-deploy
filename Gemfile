@@ -3,8 +3,11 @@ ruby '2.2.4'
 
 gem 'rails', '4.2.5'
 gem 'rails-api'
-gem 'spring', :group => :development
-gem 'sqlite3', :group => :development
+
+group :development do
+  gem 'spring'
+  gem 'sqlite3'
+end
 
 group :production do
   gem 'thin'
