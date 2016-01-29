@@ -1,15 +1,12 @@
 'use strict';
 var
-  app = require('express')(),
+  express = require('express'),
+  app = express(),
   port = process.env.PORT || 3000,
   parser = require('body-parser');
 
 app.use(parser.json());
-
-app.get('/', function (req, res, next) {
-  res.send("Server is Running!!");
-  return next();
-});
+app.use(express.static(__dirname + '/public'))
 
 app.get('/api/ping', function (req, res, next) {
   res.json('PONG');
