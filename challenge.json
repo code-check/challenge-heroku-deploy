@@ -1,5 +1,7 @@
 {
   "editable": [
+    "app.json",
+    "package.json",
     "account.json",
     "Procfile"
   ],
