@@ -12,5 +12,6 @@
     "ja": "README_ja.md",
     "en": "README.md"
   },
+  "allowNewFile": true,
   "test": "mocha specifications"
 }
