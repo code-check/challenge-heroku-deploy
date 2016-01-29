@@ -1,5 +1,6 @@
 # Heroku への Deploy
-**このチャレンジは GitHub への Fork機能の使用を推奨します。**
+**このチャレンジは GitHub への Fork 機能を使って受けてください**
+
 サンプルの API が実装されたコードが用意されているので、それを [Heroku](https://heroku.com) に Deploy（サーバー側にコードを送って、アプリケーションにアクセス可能な状態にする事）しましょう。
 Heroku の[公式なドキュメント](https://devcenter.heroku.com/start)は英語のみですが、有志の方々が[和訳をなさっている](https://github.com/herokaijp/devcenter/wiki/Add-on-app-info)ようです。まだまだ和訳できていないページも多いですが一度見てみるといいかもしれません。
 
