@@ -10,7 +10,7 @@
     "url": "git+https://github.com/givery-technology/challenge-heroku-deploy.git"
   },
   "keywords": [],
-  "engine": {
+  "engines": {
     "node": "4.x"
   },
   "author": "Givery, Inc.",
