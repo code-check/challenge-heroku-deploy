@@ -1,10 +1,17 @@
 Rails.application.routes.draw do
-  root 'top#index'
+
+  root 'static#index'
+
   namespace :api do
     get 'ping' => 'sandbox#ping'
     get 'notfound' => 'sandbox#notfound'
     post 'badrequest' => 'sandbox#badrequest'
   end
+
+  # Returns static files
+  get "/:page" => "static#show"
+
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
