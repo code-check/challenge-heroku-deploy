@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return response()->json("Server is Running ...");
+	return view('index');
 });
 
 Route::get('/api/ping', 'ApiController@ping');
