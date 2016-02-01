@@ -21,6 +21,9 @@ Heroku の Deploy についてのドキュメントは[こちら](https://devcen
 
 いくつかのフレームワークでは [buildpacks](https://devcenter.heroku.com/articles/buildpacks)を明示的に指定する必要があるのでドキュメントを読んで設定しましょう！
 
+**Note:**  
+Gradlew を使ったデプロイには次の buildpack が必要になります。
+https://github.com/marc0der/heroku-buildpack-gradlew
 
 ## ステップ 3: account.json を編集しよう！
 アプリケーションを作成したら[account.json](./account.json)の `heroku_appname` の値に先ほど作った Heroku のアプリケーション名を入力してください。（`App Name` の項目に入力した内容）  
@@ -30,11 +33,6 @@ Heroku の Deploy についてのドキュメントは[こちら](https://devcen
   "heroku_appname": "<Write your Heroku application name here>"
 }
 ```
-
-**Note:**  
-Gradlew を使ったデプロイには次の buildpack が必要になります。
-https://github.com/marc0der/heroku-buildpack-gradlew
-
 
 ## ステップ 4: テストを実行しよう！
 デプロイが完了したらテストを実行して、エラーなく終了できることを確認しましょう！
