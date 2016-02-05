@@ -2,6 +2,7 @@
   "editable": [
     "app.json",
     "package.json",
+    ".gitignore",
     "account.json",
     "Procfile"
   ],
