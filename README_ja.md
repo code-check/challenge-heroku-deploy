@@ -47,3 +47,10 @@ $ $(npm bin)/mocha specifications  # テストの実行
 ```
 24 passing (1s)
 ```
+
+
+##### Notes:
+###### DBの設定に注意！
+Herokuにデプロイすると、参照先のDBが変更されます。(SQLiteからpostgresql)  
+[database.yml](config/database.yml)をご確認ください。  Productionでは、postgresqlを参照する設定がされています。  
+[Heroku上のアドオン](https://elements.heroku.com/addons/heroku-postgresql)を追加して、参照されるDBに間違いないかをご確認ください。
