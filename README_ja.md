@@ -21,6 +21,10 @@ Heroku の Deploy についてのドキュメントは[こちら](https://devcen
 
 いくつかのフレームワークでは [buildpacks](https://devcenter.heroku.com/articles/buildpacks)を明示的に指定する必要があるのでドキュメントを読んで設定しましょう！
 
+##### Notes: DBの設定に注意！
+このチャレンジでは手元の環境 (development環境) では SQLite, Heroku の環境 (production環境) では PostgreSQL を参照するように設定されています。設定は [Gemfile](./Gemfile) と [database.yml](./config/database.yml) から確認できます！
+また、[Heroku 上のデータベースアドオン](https://elements.heroku.com/addons/heroku-postgresql)を追加するように設定してあります。  
+**自分で Heroku にデプロイする際** には データベースの設定が問題ないかを確認してください！
 
 ## ステップ 3: account.json を編集しよう！
 アプリケーションを作成したら[account.json](./account.json)の `heroku_appname` の値に先ほど作った Heroku のアプリケーション名を入力してください。（`App Name` の項目に入力した内容）  
@@ -47,10 +51,3 @@ $ $(npm bin)/mocha specifications  # テストの実行
 ```
 24 passing (1s)
 ```
-
-
-##### Notes:
-###### DBの設定に注意！
-Herokuにデプロイすると、参照先のDBが変更されます。(SQLiteからpostgresql)  
-[database.yml](config/database.yml)をご確認ください。  Productionでは、postgresqlを参照する設定がされています。  
-[Heroku上のアドオン](https://elements.heroku.com/addons/heroku-postgresql)を追加して、参照されるDBに間違いないかをご確認ください。
