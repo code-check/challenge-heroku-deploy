@@ -9,6 +9,11 @@
   "exclude": [
     "challenge.json"
   ],
+  "tags": [
+    "Heroku",
+    "Django",
+    "Python"
+  ],
   "readme": {
     "ja": "README_ja.md",
     "en": "README.md"
