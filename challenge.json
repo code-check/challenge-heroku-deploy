@@ -9,6 +9,12 @@
   "exclude": [
     "challenge.json"
   ],
+  "tags": [
+    "Express",
+    "Heroku",
+    "Node.js",
+    "mocha"
+  ],
   "readme": {
     "ja": "README_ja.md",
     "en": "README.md"
